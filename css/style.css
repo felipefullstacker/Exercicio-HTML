@@ -1,0 +1,75 @@
+.container{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(83, 91, 240);
+
+}
+
+button{
+    position: relative;
+}
+
+button span:last-child {
+    width: 1px;
+    float: right;
+    margin-left: 15px;
+}
+
+button span:first-child {
+    float: left;
+    position: absolute;
+    margin-left: -20px;
+}
+
+.botao{
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: purple;
+    color: #fff;
+    text-align: left;
+}
+
+
+.botao2 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: green;
+    color: #fff;
+    text-align: left;
+}
+
+.botao3:hover {
+    background-color: rgb(250, 203, 117);
+}
+
+.botao3 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: orange;
+    color: #fff;
+    text-align: left;
+}
+
+.botao4:hover {
+    background-color: rgb(248, 82, 82);
+}
+
+.botao4 {
+    width: 390px;
+    padding: 18px 18px;
+    margin: 10px;
+    background-color: red;
+    color: #fff;
+    text-align: left;
+}
+
+.fa-solid:hover {
+    color: rgb(0, 0, 0);
+}
