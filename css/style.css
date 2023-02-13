@@ -9,97 +9,33 @@
 
 }
 
+body{
+    background-color: gray;
+}
+
+.fa-solid{
+    color: rgb(71, 143, 71);
+    height: 60px;
+    margin-bottom: 50px;
+    font-size: 60px;
+}
+
 button{
+    width: 50px;
+    height: 20px;
+    background-color: rgb(61, 77, 226);
+    color: white;
+    font-size: 10px;
+    border: none;
+    border-radius: 4px;
+    float: right;
+    margin-left: 200px;
+    margin-top: 20px;
     position: relative;
 }
 
-button span:last-child {
-    width: 1px;
-    float: right;
-    margin-left: 15px;
-}
-
-
-.botao{
-    width: 400px;
-    padding: 20px 20px;
-    margin: 5px;
-    border-radius: 4px;
-
-    background-color: #dbdbdb;
-    border: none;
-    border-left: 3px solid gray;
-    color: #0c0c0c;
-    text-align: left;
-}
-
-.botao:hover{
-        border-left: 30px solid gray;
-
-}
-
-
-.botao2 {
-    width: 400px;
-    padding: 20px 20px;
-    margin: 5px;
-    background-color: #C1F3C1;
-    border: none;
-    border-radius: 4px;
-    border-left: 3px solid gray;
-    color: #000000;
-    text-align: left;
-
-}
-
-.botao2:hover{
-    border-left: 30px solid gray;
-
-}
-
-
-
-.botao3 {
-    width: 400px;
-    padding: 20px 20px;
-    margin: 5px;
-    background-color: #F8B1A2;
-    border: none;
-    border-radius: 4px;
-    border-left: 3px solid gray;
-    color: #000000;
-    text-align: left;
-}
-
-.botao3:hover {
-    border-left: 30px solid gray;
-}
-
-
-
-.botao4 {
-    width: 400px;
-    padding: 20px 20px;
-    margin: 5px;
-    background-color: #F9E1A7;
-    border: none;
-    border-radius: 4px;
-    border-left: 3px solid gray;
-    color: #000000;
-    text-align: left;
-}
-
-.botao4:hover {
-    border-left: 30px solid gray;
-}
-
-.fa-regular{
-    color: #0c0c0c58;
-    font-size: 20px;
-    margin-left: 15px;
-}
-
-.fa-regular:hover {
-    color: #000000;
+button:hover{
+    background-color: black;
+    color: rgb(61, 77, 226);
 }
 
